@@ -8,6 +8,7 @@ This repository contains a complete web scraping solution that extracts NHL hock
 Scrapes 29 teams with 5 columns of structured data.
 
 ✨ Features
+
 ✅ Fetches live data from scrapethissite.com
 ✅ Parses HTML tables using BeautifulSoup
 ✅ Creates clean Pandas DataFrame
@@ -26,10 +27,11 @@ cd hockey-scraper
 
 2. Run the Scraper
 jupyter notebook Hockey_Scraper.ipynb
-# OR
+OR
 python hockey_scraper.py
 
 3. Get Your Data
+
 ✅ Scraped 29 rows!
 ✅ Saved Hockey.csv!
 Output: Hockey.csv (29 rows × 5 columns)
@@ -51,6 +53,7 @@ Output: Hockey.csv (29 rows × 5 columns)
 29 NHL teams scraped successfully with complete season statistics.
 
 🎓 Learning Objectives
+
 Web scraping with requests + BeautifulSoup
 HTML table parsing
 Pandas DataFrame manipulation
